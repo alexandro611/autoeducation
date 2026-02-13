@@ -1,10 +1,13 @@
+import io.qameta.allure.Epic;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 
 import java.security.Key;
-
+@Epic("Бродилка")
 public class ExapmleTest extends BaseSetUp{
+
 
     @Test
     public void testO(){
