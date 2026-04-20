@@ -52,8 +52,8 @@ public class ApiTest {
                 .when().get(urlStore + "/1585")
                 .then()
                 .statusCode(200)
-                .body("firstname", equalTo("Jimsss"))
-                .body("lastname", equalTo("Brownsss"));
+                .body("firstname", equalTo("Josh"))
+                .body("lastname", equalTo("Allen"));
 
 
 
