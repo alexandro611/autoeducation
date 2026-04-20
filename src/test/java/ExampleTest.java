@@ -6,8 +6,19 @@ import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
 @Epic("Бродилка")
 public class ExampleTest extends BaseSetUp{
+
+
+    @DisplayName("Возможности JUnit")
+    @Test
+    public void testJunit(){
+
+        assertEquals(1,1);
+
+    }
 
     @DisplayName("Открыть новости")
     @Test
